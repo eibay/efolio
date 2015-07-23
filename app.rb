@@ -1,5 +1,4 @@
-require 'sinatra'
-require 'sinatra/reloader'
+class App < Sinatra::Base
 
 get '/' do
   'hello world'
@@ -26,4 +25,4 @@ end
 get '/game' do
   erb :game
 end
-
+end #end of class
