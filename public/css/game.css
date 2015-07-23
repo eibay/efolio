@@ -1,0 +1,132 @@
+body{
+  background-color: #4DAF80;
+  font-family: helvetica;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.matrix{
+  text-align: center;
+  font-size: 150px; 
+  height: 198px;
+  width: 198px;
+  display: inline-block;
+  background:url('/img/chrome.jpg');
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+#main{
+  max-width: 1200px;
+  background-image: url('/img/square.jpg');
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+#board{
+  position: relative;
+  max-width: 610px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 6px;
+  opacity: 0;
+}
+
+.profile {
+  position: absolute;
+  width: 270px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgba(230, 230, 230, 0.5);
+  text-align: center;
+}
+
+.avatar{
+  position:relative;
+  margin: 0 auto;
+
+
+}
+
+#p1-avatar{
+  width: 150px;
+  height: 150px;
+  background:url('/img/safari.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+#p2-avatar{
+  width: 150px;
+  height: 150px;
+  background-image: url('/img/firefox.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+#player1{
+  top: 15px;
+  /*left: 15px;*/
+  left: 330px;
+}
+
+#player2{
+  top: 15px;
+  right: 330px;
+
+}
+.playAgain{
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  background-color: rgba(100, 180, 250, 0.5);
+  position: relative;
+}
+
+
+.gameWinner{
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  background-color: rgba(50, 50, 150, 0.75);
+  top: 250px;
+  left: 100px;
+  width: 400px;
+  color: white;
+}
+
+.gameDraw{
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  background-color: rgba(50, 150, 50, 0.75);
+  top: 250px;
+  left: 100px;
+  width: 400px;
+  color: white;
+}
+
+
+.matchMessage{
+  font-size: 30px;
+  background-color: rgba(100, 180, 200, 0.8);
+
+
+}

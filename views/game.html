@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="script/jquery.js"></script>
+</head>
+<body>
+  <div id="main">
+
+    <div id="board" style="display:none">
+      <div class="matrix" id='0' data-row="0" data-col="0"></div>
+      <div class="matrix" id='1' data-row="0" data-col="1"></div>
+      <div class="matrix" id='2' data-row="0" data-col="2"></div>
+      <div class="matrix" id='3' data-row="1" data-col="0"></div>
+      <div class="matrix" id='4' data-row="1" data-col="1"></div>
+      <div class="matrix" id='5' data-row="1" data-col="2"></div>
+      <div class="matrix" id='6' data-row="2" data-col="0"></div>
+      <div class="matrix" id='7' data-row="2" data-col="1"></div>
+      <div class="matrix" id='8' data-row="2" data-col="2"></div>
+      <div class="gameWinner"></div>
+      <div class="gameDraw"></div>
+    </div> <!--end of board-->
+    
+    <div class="profile" id="player1" style="display:none">
+      <h2 class="name" id="p1-name"></h2>
+      <h1 class="score" id="p1-score">0</h1>
+      <h2 class="match" id="p1-match">"free"</h2>
+      <div class="avatar" id="p1-avatar"></div>
+      <h5 class='resetBtn'id="p1-reset"></h5>     
+    </div>
+
+    <div class="profile" id="player2" style="display:none">
+      <h2 class="name" id="p2-name"></h2>
+      <h1 class="score" id="p2-score">0</h1>
+      <h2 class="match" id="p2-match">"slave"</h2>
+      <div class="avatar" id="p2-avatar"></div>
+      <h5 class='resetBtn' id="p2-reset"></h5>
+    </div>
+
+    
+
+  </div> <!--end of main-->
+  <script type="text/javascript" src="script/underscore.js"></script>
+    
+  <script type="text/javascript" src="script/app.js"></script>
+</body>
+</html>

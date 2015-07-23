@@ -1,6 +1,6 @@
 header{
   text-align: center;
-  background: url('../images/nature.jpg');
+  background: url('/img/nature.jpg');
   background-size: cover;
   color: rgba(255,255,255, 1);
 }
@@ -9,11 +9,12 @@ body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
   color: white;
-  font-size: 25;
+  font-size: 25px;
   line-height: 28px;
   background: linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
   background: -webkit-linear-gradient(bottom, rgba(200,200,200,1), rgba(0,120,130,0.4));
   background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
+  padding: 10px;
 }
 
 h1{
@@ -28,7 +29,7 @@ h2 {
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
-  padding: 40px 0 10px 0;
+  padding: 20px 0 20px 0;
   color: rgba(0,130,100,1)
 }
 
@@ -38,15 +39,52 @@ h4{
   line-height: 20px;
 
 }
+#nav{
+  background: rgb(56, 90, 151);
+  padding: 8px;
+  text-align: center;
+}
+
+ a{
+  text-decoration: none;
+  color: #AFD6FF;
+  padding: 10px;
+}
+
+/* Grow */
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    padding-right: 30px;
+    font-size: 20px;
+
+    
+
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.5);
+    color: rgb (18, 156, 229);
+}
 
 p{
   padding: 0px 50px 0px 50px;
   margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 0.8em;
   text-align: justify;
 }
 
-img {
+#head-img {
   margin: 40px 0px 0px 0px;
   border: 7px solid white;
   border-radius: 5px 50px 5px;
@@ -56,9 +94,9 @@ img {
   color: rgba(0, 0, 0, 1);
 }
 .verseText{
-  color: rgba(0, 100, 100, 1);
+  color: rgba(79, 73, 16, 1);
   font-style: italic;
-  background: rgba(50, 255, 255, 0.5);
+  background: rgba(48, 187, 187, 0.67);
   padding: 5px 10px 5px 10px;
   line-height: 20px;
   margin: 0;
@@ -136,8 +174,9 @@ textarea{
     p{
       padding: 0px 24px 0px 24px;
       margin: 0 auto;
-      font-size: 1.4em;
+      font-size: 0.9em;
       text-align: justify;
+      line-height: 1.3;
     }
     body{
       line-height: 25px;
