@@ -1,3 +1,3 @@
-require 'eibay.rb'
+require '/eibay.rb'
 
-run Sinatra::Application
+run eibay.rb
