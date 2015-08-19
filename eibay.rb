@@ -1,5 +1,5 @@
-# require 'sinatra'
-# class App < Sinatra::Base
+require 'sinatra'
+class App < Sinatra::Base
 
 get '/' do
   'hello world'
@@ -27,4 +27,4 @@ get '/game' do
   erb :game
 end
 
-# end #end of sinatra app
+end #end of sinatra app
