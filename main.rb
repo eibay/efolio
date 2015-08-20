@@ -1,5 +1,4 @@
 require 'sinatra'
-class App < Sinatra::Base
 
 get '/' do
   
@@ -27,4 +26,3 @@ get '/game' do
   erb :game
 end
 
-end #end of sinatra app
