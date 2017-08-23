@@ -3,7 +3,7 @@ require 'sinatra/reloader'
 
 get '/' do
   
-  erb :index
+  erb :projects
 end
 
 get '/contact' do
