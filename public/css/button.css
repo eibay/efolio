@@ -1,0 +1,11 @@
+#prevProfile {
+  position: absolute;
+  top: 875px;
+  left: 20px;
+}
+
+#nextProfile {
+  position: absolute;
+  top: 875px;
+  right: 20px;
+}
