@@ -93,7 +93,7 @@ p{
 #head-img {
   margin: 10px 0px 0px 0px;
   border: 7px solid white;
-  border-radius: 5px 50px 5px;
+  border-radius: 100px 100px 200px 200px;
 }
 .verse{
   font-weight: bold;
