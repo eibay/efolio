@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Eibay Folio</title>
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/jqueryui.css"/>
   <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
@@ -12,18 +13,14 @@
   <link rel="stylesheet" href="/css/button.css">
 
 </head>
-<header>
-      <img id="head-img" src="/img/elmer-shrek-small.jpg">
-<!--       <div class="verseText">
-         <p> I am the vine your are the branches. If a man remains in me and I in Him,
-         he will bear much fruit; apart from Me, you can do nothing.
-         <span class="verse">- John 15:5</span></p>
-      </div> -->
-</header>
-
-<body>
-  <div id="nav">
-    <ul>
+<nav>
+  <div class="nav-wrapper" id="nav-bar">
+    <span class="brand-logo left">
+      <a href="/">
+        <img id="head-img" src="/img/elmer-youtube.jpg" >
+      </a>
+    </span>
+    <ul id="nav">
       <li class="hvr-grow"><a href="/">PROJECTS</a></li>
       <li class="hvr-grow"><a href="/about">ABOUT</a></li>
       <li class="hvr-grow">
@@ -38,6 +35,8 @@
         </a>
     </ul>
   </div>
+</nav>
+<body>
 <%= yield %>
  
   <script type="text/javascript" src="/js/jquery.js"></script>

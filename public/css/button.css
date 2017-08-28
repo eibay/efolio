@@ -1,13 +1,11 @@
 #prevProfile {
   position: absolute;
-  top: 366px;
   left: 15px;
   background-color: rgb(68, 135, 244);
 }
 
 #nextProfile {
   position: absolute;
-  top: 366px;
   right: 15px;
   background-color: rgb(68, 135, 244);
 }

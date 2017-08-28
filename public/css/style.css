@@ -1,6 +1,7 @@
 header{
   text-align: center;
-  background: url('/img/nature.jpg');
+  /*background: url('/img/elmer-evo.png');*/
+  /*background: url('/img/nature.jpg');*/
   background-size: cover;
   color: rgba(255,255,255, 1);
 }
@@ -14,7 +15,7 @@ body {
   background: linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
   background: -webkit-linear-gradient(bottom, rgba(200,200,200,1), rgba(0,120,130,0.4));
   background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
-  padding: 10px;
+  padding: 0px;
 }
 
 h1{
@@ -46,9 +47,15 @@ h4{
   margin: 0px;
 }
 #nav{
-  background: rgb(56, 90, 151);
-  padding: 8px;
+  /*background: rgb(56, 90, 151);*/
+  padding: 0px 0px 0px 100px;
   text-align: center;
+}
+#nav-bar {
+  background: rgb(56, 90, 151);
+  height: 100px;
+  margin: 0px;
+  padding: 20px 10px 10px 10px;
 }
 
  a{
@@ -79,34 +86,33 @@ h4{
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.5);
+    transform: scale(1.25);
     color: rgb (18, 156, 229);
 }
 
 p{
-  padding: 0px 50px 0px 50px;
+  padding: 5px 50px 5px 50px;
   margin: 0 auto;
   font-size: 0.8em;
   text-align: justify;
 }
 
 #head-img {
-  margin: 10px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 100px 100px 200px 200px;
+  margin: -15px 0px 0px -12px;
+  border: 5px solid white;
+  border-radius: 50% 50%;
+  width: 90px;
+  height: 90px;
 }
-.verse{
-  font-weight: bold;
-  color: rgba(0, 0, 0, 1);
+/* Page Title */
+.page-title {
+  background: rgba(56, 151, 131, 0.97);
+  padding: 50px 0px 18px 0px;
+  text-align: center;
+  margin: 0px;
+  font-size: 40px;
 }
-.verseText{
-  color: rgba(79, 73, 16, 1);
-  font-style: italic;
-  background: rgba(48, 187, 187, 0.67);
-  padding: 5px 10px 5px 10px;
-  line-height: 20px;
-  margin: 0;
-}
+
 
 /* About Me */
 .about{
