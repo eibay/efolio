@@ -43,7 +43,6 @@ h4{
   margin: 0px;
 }
 #nav{
-  /*background: rgb(56, 90, 151);*/
   padding: 0px 0px 0px 100px;
   text-align: center;
 }
@@ -67,23 +66,19 @@ h4{
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
     padding-right: 30px;
     font-size: 20px;
-
-    
-
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.25);
-    color: rgb (18, 156, 229);
+    color: rgba(18, 156, 229, 1);
 }
 
 p{
@@ -110,7 +105,6 @@ p{
   margin: 0px;
   font-size: 40px;
 }
-
 
 /* About Me */
 .about{
