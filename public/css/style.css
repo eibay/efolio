@@ -1,20 +1,16 @@
 header{
   text-align: center;
-  /*background: url('/img/elmer-evo.png');*/
-  /*background: url('/img/nature.jpg');*/
   background-size: cover;
   color: rgba(255,255,255, 1);
 }
 
 body {
-  font-family: helvetica, sans-serif;
+  font-family: 'Asap', sans-serif;
   margin: 0 auto;
   color: white;
   font-size: 25px;
   line-height: 28px;
-  background: linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
-  background: -webkit-linear-gradient(bottom, rgba(200,200,200,1), rgba(0,120,130,0.4));
-  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(0,120,130,.4));
+  background: rgba(56,151,131,0.94);
   padding: 0px;
 }
 
@@ -95,6 +91,8 @@ p{
   margin: 0 auto;
   font-size: 0.8em;
   text-align: justify;
+  font-family: 'Asap', sans-serif;
+  line-height: 200%;
 }
 
 #head-img {
