@@ -6,9 +6,9 @@ var game = {
 
   boardSize: 3,
 
-  player1: {score: 0, name: 'SPIRIT', avatar: '', move: 0},
+  player1: {score: 0, name: 'YANAH', avatar: '', move: 0},
 
-  player2: {score: 0, name: 'FLESH', avatar: '', move: 2},
+  player2: {score: 0, name: 'ICE', avatar: '', move: 2},
 
   gameScore: 0,
 
